@@ -86,6 +86,7 @@ Developed by
 - *Kalimuthu M(24z330)*
 - *Gokul S (24z322)*
 - *Vijayadharshini S (25z467)*
-- 💚 Towards a sustainable, AI-powered future.
+
+  💚 Towards a sustainable, AI-powered future.
 
 ---
