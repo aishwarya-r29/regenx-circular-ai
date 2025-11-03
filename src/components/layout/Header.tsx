@@ -13,11 +13,11 @@ export const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 px-6 py-4">
-      <nav className="glass-card rounded-2xl px-6 py-4 max-w-7xl mx-auto">
-        <div className="flex items-center justify-between">
+    <header className="fixed top-0 left-0 right-0 z-50 px-6 py-6">
+      <nav className="glass-card rounded-2xl px-8 py-5 max-w-7xl mx-auto">
+        <div className="flex items-center justify-between gap-8">
           {/* Logo */}
-          <Link to="/" className="flex items-center gap-2">
+          <Link to="/" className="flex items-center gap-3 flex-shrink-0">
             <div className="relative w-10 h-10">
               <div className="absolute inset-0 bg-gradient-jade rounded-lg opacity-20 blur-lg animate-glow-pulse" />
               <div className="relative w-full h-full bg-gradient-jade rounded-lg flex items-center justify-center">
@@ -30,7 +30,7 @@ export const Header = () => {
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center gap-6">
+          <div className="hidden md:flex items-center gap-8 flex-1 justify-center">
             <Link to="/" className="text-sm font-medium hover:text-primary transition-colors">
               Dashboard
             </Link>
@@ -70,7 +70,7 @@ export const Header = () => {
 
             <Button 
               size="sm" 
-              className="bg-gradient-jade hover:shadow-glow-jade transition-all duration-300"
+              className="bg-gradient-jade hover:shadow-glow-jade transition-all duration-300 flex-shrink-0"
             >
               <User className="w-4 h-4 mr-2" />
               Sign In

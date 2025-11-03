@@ -93,6 +93,16 @@ export default {
           from: { transform: "rotate(0deg)" },
           to: { transform: "rotate(360deg)" },
         },
+        "breathe": {
+          "0%, 100%": { 
+            opacity: "0.2",
+            transform: "scale(1)",
+          },
+          "50%": { 
+            opacity: "0.4",
+            transform: "scale(1.05)",
+          },
+        },
         "fade-in": {
           from: { opacity: "0", transform: "translateY(10px)" },
           to: { opacity: "1", transform: "translateY(0)" },
@@ -120,6 +130,7 @@ export default {
         "slide-in-right": "slide-in-right 0.4s ease-out",
         "scale-in": "scale-in 0.3s ease-out",
         "shimmer": "shimmer 2s linear infinite",
+        "breathe": "breathe 3s ease-in-out infinite",
       },
     },
   },

@@ -1,5 +1,6 @@
 import { CircularProgress } from "@/components/dashboard/CircularProgress";
 import { MetricCard } from "@/components/dashboard/MetricCard";
+import { HeroLogo } from "@/components/layout/HeroLogo";
 import { Wallet, Leaf, TrendingUp, Package } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
@@ -7,16 +8,8 @@ const Index = () => {
   return (
     <div className="min-h-screen pt-32 pb-20 px-6">
       <div className="max-w-7xl mx-auto">
-        {/* Hero Section */}
-        <div className="text-center mb-16 animate-fade-in">
-          <h1 className="text-6xl md:text-7xl font-bold mb-6 tracking-tight">
-            Your Product
-            <span className="block gradient-text">Regeneration Hub</span>
-          </h1>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            AI-powered lifecycle tracking for smarter resale, buyback, and eco-trade
-          </p>
-        </div>
+        {/* Hero Logo Section */}
+        <HeroLogo />
 
         {/* Main Dashboard Grid */}
         <div className="grid lg:grid-cols-3 gap-8 mb-12">
