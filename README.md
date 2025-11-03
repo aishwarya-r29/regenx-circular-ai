@@ -83,10 +83,10 @@ Developed by
 - *G S Sowmitha (24z320)* 
 - *Rohith G (24z353)*
 - *Shalini Ghosh (24z362)*
-- *Kalimuthu M(24z330)*
+- *Kalimuthu M (24z330)*
 - *Gokul S (24z322)*
 - *Vijayadharshini S (25z467)*
 
-  💚 Towards a sustainable, AI-powered future.
+💚 Towards a sustainable, AI-powered future.
 
 ---
