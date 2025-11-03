@@ -78,7 +78,14 @@ To promote *responsible consumption (SDG 12)* and *industry innovation (SDG 9)* 
 
 ## 🤝 *Contributors*
 
-Developed by *Aishwarya R* and team  
+Developed by 
+*Aishwarya R (24z304)*
+*G S Sowmitha (24z320)* 
+*Rohith G (24z353)*
+*Shalini Ghosh (24z362)*
+*Kalimuthu M(24z330)*
+*Gokul S (24z322)*
+*Vijayadharshini S (25z467)*
 💚 Towards a sustainable, AI-powered future.
 
 ---
